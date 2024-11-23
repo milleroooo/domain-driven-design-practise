@@ -1,0 +1,89 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@beverages/data-access/domain": [
+        "libs/beverages/data-access/domain/src/index.ts"
+      ],
+      "@beverages/feature/lib": ["libs/beverages/feature/lib/src/index.ts"],
+      "@beverages/ui/lib": ["libs/beverages/ui/lib/src/index.ts"],
+      "@beverages/routes": ["libs/beverages/src/index.ts"],
+      "@dairies": ["libs/dairies/src/index.ts"],
+      "@dairies/data-access/domain": [
+        "libs/dairies/data-access/domain/src/index.ts"
+      ],
+      "@dairies/feature/list": ["libs/dairies/feature/list/src/index.ts"],
+      "@dairies/routes": ["libs/dairies/src/index.ts"],
+      "@dairies/util/model": ["libs/dairies/util/model/src/index.ts"],
+      "@dairy": ["libs/dairy/src/index.ts"],
+      "@dairy/data-access/domain": [
+        "libs/dairy/data-access/domain/src/index.ts"
+      ],
+      "@fruits/data-access/domain": [
+        "libs/fruits/data-access/domain/src/index.ts"
+      ],
+      "@fruits/data-access/util": ["libs/fruits/data-access/util/src/index.ts"],
+      "@fruits/feature/feature-container": [
+        "libs/fruits/feature/feature-container/src/index.ts"
+      ],
+      "@fruits/feature/list": ["libs/fruits/feature/list/src/index.ts"],
+      "@fruits/ui/common": ["libs/fruits/ui/common/src/index.ts"],
+      "@fruits/util/model": ["libs/fruits/util/model/src/index.ts"],
+      "@grains/data-access/domain": [
+        "libs/grains/data-access/domain/src/index.ts"
+      ],
+      "@grains/feature/usuless-staff": [
+        "libs/grains/feature/usuless-staff/src/index.ts"
+      ],
+      "@grains/ui/trolo123": ["libs/grains/ui/trolo123/src/index.ts"],
+      "@grains/ui/ui-grains": ["libs/grains/ui/ui-grains/src/index.ts"],
+      "@grains/util/model": ["libs/grains/util/model/src/index.ts"],
+      "@meats": ["libs/meats/src/index.ts"],
+      "@meats/data-access/domain": [
+        "libs/meats/data-access/domain/src/index.ts"
+      ],
+      "@meats/feature/containers": [
+        "libs/meats/feature/containers/src/index.ts"
+      ],
+      "@meats/ui/ui-card": ["libs/meats/ui/ui-card/src/index.ts"],
+      "@meats/ui/ui-components": ["libs/meats/ui/ui-components/src/index.ts"],
+      "@meats/util/consts": ["libs/meats/util/consts/src/index.ts"],
+      "@meats/util/model": ["libs/meats/util/model/src/index.ts"],
+      "@meats/util/pipes": ["libs/meats/util/pipes/src/index.ts"],
+      "@ng-plugin": ["plugins/ng-plugin/src/index.ts"],
+      "@spices/data-access/domain": [
+        "libs/spices/data-access/domain/src/index.ts"
+      ],
+      "@spices/feature/lib": ["libs/spices/feature/lib/src/index.ts"],
+      "@spices/feature/spices-list": [
+        "libs/spices/feature/spices-list/src/index.ts"
+      ],
+      "@spices/ui/lib": ["libs/spices/ui/lib/src/index.ts"],
+      "@spices/util/mappers": ["libs/spices/util/mappers/src/index.ts"],
+      "@spices/util/model": ["libs/spices/util/model/src/index.ts"],
+      "@vegetables/data-access/domain": [
+        "libs/vegetables/data-access/domain/src/index.ts"
+      ],
+      "@vegetables/feature/list": ["libs/vegetables/feature/list/src/index.ts"],
+      "@vegetables/routes": ["libs/vegetables/src/index.ts"],
+      "@vegetables/ui/ui-components": [
+        "libs/vegetables/ui/ui-components/src/index.ts"
+      ],
+      "@vegetables/util/model": ["libs/vegetables/util/model/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

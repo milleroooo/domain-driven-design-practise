@@ -1,0 +1,3 @@
+<ng-container *ngFor="let spice of spices$ | async">
+  <spices-ui-element [spice]="mapToSpiceUi(spice)"></spices-ui-element>
+</ng-container>

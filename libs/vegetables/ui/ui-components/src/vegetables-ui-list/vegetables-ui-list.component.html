@@ -1,0 +1,21 @@
+<div>
+    <span>List</span>
+    <table class="greenTable">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Color</th>
+                <th>Season</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let vegetable of vegetables">
+                <th>{{ vegetable.id }}</th>
+                <td>{{ vegetable.name }}</td>
+                <td>{{ vegetable.color }}</td>
+                <td>{{ vegetable.season }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

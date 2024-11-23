@@ -1,0 +1,20 @@
+<table class="beverages-container__table">
+  <thead>
+    <tr>
+      <th>Nazwa</th>
+      <th>Typ</th>
+      <th>Akcje</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let beverage of beverages$ | async">
+      <td>{{ beverage.name }}</td>
+      <td>{{ beverage.type }}</td>
+      <td>
+        <button (click)="selectBeverage(beverage)">Szczegóły</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<beverages-ui-details [beverage]="selectedBeverage"></beverages-ui-details>

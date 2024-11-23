@@ -1,0 +1,23 @@
+<div class="grains-container">
+  <h2>Grains</h2>
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Nutritional Value</th>
+      <th>Type</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let grain of grainsList">
+    <td>{{ grain.id }}</td>
+    <td>{{ grain.name }}</td>
+    <td>{{ grain.nutritionalValue }}</td>
+    <td>{{ grain.type }}</td>
+  </tr>
+</tbody>
+</table>
+
+</div>
+

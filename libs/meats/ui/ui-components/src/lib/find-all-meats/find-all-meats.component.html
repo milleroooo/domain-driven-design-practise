@@ -1,0 +1,6 @@
+<p>Mięska:</p>
+<div *ngIf="meats.length > 0">
+  <div *ngFor="let meat of meats">
+    {{meat | meatsPipe}}
+  </div>
+</div>

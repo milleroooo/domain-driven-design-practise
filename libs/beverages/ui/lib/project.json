@@ -1,0 +1,20 @@
+{
+  "name": "beverages-ui-lib",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/beverages/ui/lib/src",
+  "prefix": "beverages-ui",
+  "projectType": "library",
+  "tags": ["domain:beverages", "type:ui"],
+  "targets": {
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "libs/beverages/ui/lib/jest.config.ts"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  }
+}

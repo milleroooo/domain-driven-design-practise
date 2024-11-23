@@ -1,0 +1,7 @@
+.grains-container{
+  width:300px;
+  padding: 0 30px 30px;
+  margin-top:30px;
+  border: gray 1px solid;
+  border-radius: 25px;
+}

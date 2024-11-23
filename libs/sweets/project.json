@@ -1,0 +1,9 @@
+{
+  "name": "sweets",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/sweets/src",
+  "projectType": "library",
+  "tags": ["type:feature", "domain:sweets"],
+  "// targets": "to see all targets run: nx show project sweets --web",
+  "targets": {}
+}

@@ -1,0 +1,9 @@
+{
+  "generators": {
+    "generate-library": {
+      "factory": "./src/generators/library/generator",
+      "schema": "./src/generators/library/schema.json",
+      "description": "Generate a Libray for given Domain"
+    }
+  }
+}

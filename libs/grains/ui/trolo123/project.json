@@ -1,0 +1,20 @@
+{
+  "name": "grains-ui-trolo123",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/grains/ui/trolo123/src",
+  "prefix": "grains-ui",
+  "projectType": "library",
+  "tags": ["domain:grains", "type:ui"],
+  "targets": {
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "libs/grains/ui/trolo123/jest.config.ts"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  }
+}

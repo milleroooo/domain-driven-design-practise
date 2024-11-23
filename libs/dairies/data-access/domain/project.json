@@ -1,0 +1,20 @@
+{
+  "name": "dairies-data-access-domain",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/dairies/data-access/domain/src",
+  "prefix": "dairies-data-access",
+  "projectType": "library",
+  "tags": ["domain:dairies", "type:data-access"],
+  "targets": {
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "libs/dairies/data-access/domain/jest.config.ts"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  }
+}

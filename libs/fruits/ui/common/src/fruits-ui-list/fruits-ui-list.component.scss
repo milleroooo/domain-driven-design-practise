@@ -1,0 +1,22 @@
+.fruits-ui-list {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+
+  &__fruit-card {
+    border: 1px solid;
+    padding: 16px;
+    border-radius: 8px;
+    max-width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    &__title {
+      margin-top: 0;
+      color: #333;
+    }
+
+    &__description {
+      margin: 4px 0;
+    }
+  }
+}
